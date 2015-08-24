@@ -1,0 +1,204 @@
+/* For older browsers */
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+} 
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.container-fluid {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: white;
+    opacity: .9;
+ }
+
+header #title{
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 5rem;
+}
+
+header #title a{
+    padding: 10px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+div#titleCaption {
+    text-align: center;
+    font-size: 1.75em;
+    color: silver;
+    margin-bottom: 13px;
+}
+
+nav#headerNav{
+    width: 100%;
+    display: table;
+    text-align: center;
+    border-top: 1px solid rgba(192, 192, 192, 0.58);
+    padding: 10px 0px;
+}
+
+nav#headerNav ul#headerList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav#headerNav ul#headerList li {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.75rem;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px
+}
+
+
+nav#headerNav ul#headerList a:link, nav#headerNav ul#headerList a:visited {
+    text-decoration: none;
+}
+
+
+nav#headerNav ul#headerList a:hover, nav#headerNav ul#headerList a:active {
+    text-decoration: none;
+}
+
+
+#body{
+    top: 180px;
+    position: relative;
+    margin: 0;    
+}
+
+#body #content{
+    position: relative;
+    margin: 0px 25%;    
+}
+
+/**********  CAROUSEL - Hone Page **********/
+div#carousel ul {
+    list-style-type: none;
+    margin: 0px 0px 0px -100px;
+    padding: 0;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+div#carousel ul li {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+div#carousel ul a:link, div#carousel ul a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #98bf21;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div#carousel ul a:hover, div#carousel ul a:active {
+    background-color: #7A991A;
+}
+
+div#carousel ul li img{
+    width: 480px;
+    height: 360px;
+}
+
+/**********  CAROUSEL END **********/
+
+
+/*********** Home - Blog Post Entries **********/
+h1{
+    margin-top: 50px;
+}
+
+#posts {
+    margin-top: 30px;
+}
+
+.postDivider {
+    border-bottom: 1px silver solid;
+    margin: 30px 0px;
+}
+
+.postTeaser {
+    font-size: 1.75rem;
+}
+
+.postInfo{
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.postCategories ul{
+    list-style: none;
+    display: inline-block;
+    padding-left: 0;
+}
+
+.postCategories ul li {
+    float: left;
+}    
+
+
+/******** Blog Post *********/
+article.blogPost {
+    margin: 0px 0px;
+    font-size: 1.8rem;
+}
+
+
+/********* Portfolio Styles ***********/
+.PortfolioBox1 {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+.PortfolioBox1 h4~p{
+    padding-top: 0px;
+    margin-top: -15px;
+}
+
+
+/******* Category Entries ********/
+#categoryEntries{
+    list-style: none;
+    font-size: 2rem;
+}
+
+
+/******** Categories ***********/
+ul#categories {
+    list-style: none;
+    font-size: 2em;
+}
+
+.categoryEntryCount{
+    font-size: 1.5rem;
+    color: brown;
+}
+/*# sourceMappingURL=all.css.map */
